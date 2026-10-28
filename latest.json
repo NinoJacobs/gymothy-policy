@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "android": {
-    "build": 10,
+    "build": 11,
     "version": "2.3.2",
-    "notes": "Log workouts directly from Gym log and save your workout and gym visit together.\nShow or hide exercise details with clearer labels.\nBottom navigation now smoothly scrolls each page to the top.\nDaily motivation refreshes automatically; the manual refresh button is removed.\nRemoved Undo removal controls.\nA new notification bell shows release notes and available Android updates.",
+    "notes": "Log workouts directly from Gym log and save your workout and gym visit together.\nShow or hide exercise details with clearer labels.\nBottom navigation now smoothly scrolls each page to the top.\nDaily motivation refreshes automatically; the manual refresh button is removed.\nRemoved Undo removal controls.\nA new notification bell shows release notes and available Android updates.\nKeep saved workout names when reopening Gym log.",
     "track": "internal"
   }
 }
