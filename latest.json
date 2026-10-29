@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "android": {
-    "build": 12,
-    "version": "2.4.0",
-    "notes": "New About section with app updates, terms, privacy policy, profile details and client info.\nOpt-in Google Play updates with Wi-Fi request gating and approved installation after leaving the app.\nNew Devices coming-soon page and What’s New release history.\nLogout displays Account login coming soon and keeps your records.\nUpdated privacy policy.",
+    "build": 13,
+    "version": "2.5.0",
+    "notes": "Refreshed dark and light themes, compact floating navigation and clearer headings. Workouts now groups your split, exercises, Gym log and Progress. Saved workouts remain available by date. Profile has quick Settings access. Home notifications open in a popup with saved read/dismiss choices. All ten themes remain available. Push notifications are coming soon.",
     "track": "internal"
   }
 }
