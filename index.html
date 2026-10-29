@@ -23,7 +23,7 @@
 <main id="top">
   <header>
     <h1>Gymothy privacy &amp; app policy</h1>
-    <p class="meta">Policy 1.7 · Last reviewed 29 October 2026</p>
+    <p class="meta">Policy 1.8 · Last reviewed 29 October 2026</p>
     <p>Gymothy helps you record your training and wellbeing. This policy explains the current Android, iOS, and web app, how your information is handled, and the limits of its fitness and nutrition features.</p>
     <p>Privacy and support: <a href="mailto:ninojacobs1@gmail.com">ninojacobs1@gmail.com</a></p>
   </header>
@@ -49,7 +49,7 @@
   <section aria-labelledby="information">
     <h2 id="information">Information you choose to enter</h2>
     <p>Gymothy can store your name and training focus; date of birth and calculated age; height and weigh-ins; nutrition equation setting, activity level, and weight goal; gym visit dates and times; exercises, individual lifting sets, reps and weights; cardio time, distance and steps; splits and templates; food and macro totals, water and custom nutrition goals; sleep, energy and wellbeing notes; and unit and appearance preferences.</p>
-<p>The app also stores setup status, catalogue versions, the daily motivation cache, cached public release information, and read/dismissed notification identifiers so it can remember your choices and display your records. Free-text fields can contain whatever you enter; avoid adding information you do not need for your training.</p>
+<p>The app also stores setup status, catalogue versions, the daily motivation cache, cached public release information, read/dismissed notification identifiers, and automatic-update/Wi-Fi preferences so it can remember your choices and display your records. Free-text fields can contain whatever you enter; avoid adding information you do not need for your training.</p>
 <p>Profile setup can be skipped. Measurements and health details are optional, although some calculations need particular inputs. Steps, distance, exercise performance and food intake are entered manually. Gymothy does not currently read your GPS, contacts, HealthKit, Health Connect, or a wearable device.</p>
     
   </section>
@@ -75,8 +75,12 @@
     <p>Daily motivation automatically requests a quote from DummyJSON when the app is opened, returns to the foreground, or checks for a new day, subject to its cache and retry limits. There is no manual refresh control. Only Home displays the quote. The request does not include your name, date of birth, health records or workout entries, but DummyJSON and its hosting providers can receive your IP address and ordinary request information, and may process it outside your country.</p>
 <p>Quotes are cached locally for the day, with local fallback messages if the request fails. Disconnecting from the internet prevents new online requests; there is currently no separate in-app switch for online motivation. Quote attribution is supplied by the provider and is not independently verified.</p>
 <p>On Android, the app automatically checks a public release feed hosted on GitHub Pages at startup, when returning to the foreground and periodically while active, at most once every six hours after a successful check, with a five-minute retry limit after failures. GitHub and its hosting providers receive ordinary connection information such as your IP address; the request does not include your profile, health records, workouts or notification choices. Cached release information and read/dismissed message identifiers are stored locally and included in backups. The feed announces Internal testing releases; Google Play eligibility and processing determine whether your account can install them. Installed-version notes remain available offline. There is no separate switch for update checks; disconnecting prevents requests. Notifications appear only inside the app, without push tokens, system notification permission or background delivery while the app is closed. Opening Google Play contacts Google.</p>
+<p>About → App updates offers opt-in Google Play flexible updates on Android. Automatic installation is off by default; Wi-Fi only is on by default. Eligible updates require Google Play approval. Once approved and downloaded, automatic installation is requested after the app leaves the foreground, subject to the saved Wi-Fi preference. Manual restart/installation is also available for a downloaded update. There is no Gymothy background download service when the app is closed. Wi-Fi only gates the app’s download and installation requests; Google Play controls its own transfers and network behaviour if a connection changes, and its separate auto-update settings are not changed by Gymothy. Turning automatic updates off does not cancel a Play download already approved. The update preferences are local, retained with records and included in backups.</p>
+<p>The Google Play In-App Update library communicates with Google Play to determine eligibility and deliver an update. The library uses device metadata, application version and the installed-module/asset-pack list to assess update availability and size. Google Play also processes installation and account/service information under its own policies. Gymothy does not supply profile, health or workout records to this API. The app checks network connectivity/Wi-Fi through Android’s network-state permission; it does not read Wi-Fi names, location or connected devices. These update controls do not provide over-the-air JavaScript updates and are unavailable on web/iOS or without the native Android module.</p>
 <p>Opening an external website or your email app contacts that provider. Exporting through a share sheet may give the file to an app, person or storage service you select. Their own policies apply to information they receive. Gymothy does not control their retention or security.</p>
     <p><a href="https://dummyjson.com/docs/quotes">DummyJSON quote service</a></p>
+<p><a href="https://developer.android.com/guide/playcore/in-app-updates">Google Play in-app updates and data handling</a></p>
+<p><a href="https://policies.google.com/privacy">Google privacy policy</a></p>
   </section>
 <section aria-labelledby="backups">
     <h2 id="backups">Backups, sharing and restoring</h2>
@@ -108,7 +112,8 @@
   </section>
 <section aria-labelledby="sharing">
     <h2 id="sharing">Trainer access and future features</h2>
-    <p>This version does not provide trainer accounts, client accounts, a shared client dashboard, automatic trainer access or cloud sync. Someone who receives a full backup can read the personal and health information in it; a backup is not a limited invitation to view only a split.</p>
+    <p>Settings Logout currently displays Account login coming soon. It does not authenticate, revoke sessions, delete records or sign out of Google Play. Devices is a coming-soon page and does not collect or display device sessions. About your profile describes local profile data, not an online identity. Client info displays app/native/JavaScript build details, configured release channel and runtime information locally; it is not automatically sent to support. What’s New is bundled release history.</p>
+<p>This version does not provide trainer accounts, client accounts, a shared client dashboard, automatic trainer access or cloud sync. Someone who receives a full backup can read the personal and health information in it; a backup is not a limited invitation to view only a split.</p>
 <p>If trainer/client sharing, accounts, cloud storage, advertising, analytics, AI services or new health integrations are introduced, this policy must be updated to explain the actual data flows and controls. Permissions and consent must be requested where required before new collection or sharing begins; reading this page is not blanket consent to future uses.</p>
     
   </section>
@@ -126,7 +131,8 @@
   </section>
 <section aria-labelledby="changes">
     <h2 id="changes">Policy updates</h2>
-    <p>29 October 2026 · Policy 1.7: added an in-app notification inbox, local read/dismiss state and cached release metadata included in backups, and automatic Android release checks through GitHub Pages. These are in-app messages, not push notifications. No personal workout or health data is sent in release checks.</p>
+    <p>29 October 2026 · Policy 1.8: added opt-in Google Play flexible updates, local automatic-install and Wi-Fi preferences, Android network-state checks, and their installation/network limitations. Added About, local client info and release history, plus explicit non-functional account/device/Logout placeholders. No account service or personal-record upload is introduced.</p>
+<p>29 October 2026 · Policy 1.7: added an in-app notification inbox, local read/dismiss state and cached release metadata included in backups, and automatic Android release checks through GitHub Pages. These are in-app messages, not push notifications. No personal workout or health data is sent in release checks.</p>
 <p>29 October 2026 · Policy 1.6: new gym visits use the workout editor and are recorded with a successful workout save. Removed in-app Undo removal controls; recover removed records only from an existing backup where available. Daily motivation now has automatic refresh only. Storage locations, data categories and external providers are unchanged.</p>
 <p>29 October 2026 · Policy 1.5: explained local save confirmations, unchanged-save controls and Back navigation, including the difference between retained workout drafts and other unsaved forms. Data categories, storage locations, service providers and backup format are unchanged.</p>
 <p>28 October 2026 · Policy 1.4: added local automatic workout drafts, one per date, with resume and discard controls. Drafts are included in backups, retained until saved or removed, and cleared with workout-history or exercise-library resets. No new external service or upload of workout records is introduced.</p>
