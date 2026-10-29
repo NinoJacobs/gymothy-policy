@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "android": {
-    "build": 11,
-    "version": "2.3.2",
-    "notes": "Log workouts directly from Gym log and save your workout and gym visit together.\nShow or hide exercise details with clearer labels.\nBottom navigation now smoothly scrolls each page to the top.\nDaily motivation refreshes automatically; the manual refresh button is removed.\nRemoved Undo removal controls.\nA new notification bell shows release notes and available Android updates.\nKeep saved workout names when reopening Gym log.",
+    "build": 12,
+    "version": "2.4.0",
+    "notes": "New About section with app updates, terms, privacy policy, profile details and client info.\nOpt-in Google Play updates with Wi-Fi request gating and approved installation after leaving the app.\nNew Devices coming-soon page and What’s New release history.\nLogout displays Account login coming soon and keeps your records.\nUpdated privacy policy.",
     "track": "internal"
   }
 }
