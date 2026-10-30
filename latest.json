@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "android": {
-    "build": 16,
-    "version": "2.6.1",
-    "notes": "Android Back now returns directly from Settings to Profile, even after selecting several settings sections. Open popups still close first. Smooth section scrolling is preserved.",
+    "build": 17,
+    "version": "2.6.2",
+    "notes": "Search split templates and create a split above the template catalogue. Progress overview cards now open the matching Weight or Nutrition section, including an already open Health tab. Health section links survive reload. Edit profile from About returns directly to Profile.",
     "track": "internal"
   }
 }
