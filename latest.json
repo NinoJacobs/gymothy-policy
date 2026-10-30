@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "android": {
-    "build": 13,
-    "version": "2.5.0",
-    "notes": "Refreshed dark and light themes, compact floating navigation and clearer headings. Workouts now groups your split, exercises, Gym log and Progress. Saved workouts remain available by date. Profile has quick Settings access. Home notifications open in a popup with saved read/dismiss choices. All ten themes remain available. Push notifications are coming soon.",
+    "build": 14,
+    "version": "2.5.1",
+    "notes": "Settings is one scrolling page with section navigation that follows scrolling. Back returns to Profile. Gymothy logos appear on all main-tab headings. Fresh workout exercises start collapsed with borderless arrows; saved draft choices are retained. Optional feedback in Settings sends your entered name, email and message through a rate-limited service to Discord. Push notifications remain coming soon.",
     "track": "internal"
   }
 }
