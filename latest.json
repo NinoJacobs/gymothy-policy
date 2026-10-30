@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "android": {
-    "build": 14,
-    "version": "2.5.1",
-    "notes": "Settings is one scrolling page with section navigation that follows scrolling. Back returns to Profile. Gymothy logos appear on all main-tab headings. Fresh workout exercises start collapsed with borderless arrows; saved draft choices are retained. Optional feedback in Settings sends your entered name, email and message through a rate-limited service to Discord. Push notifications remain coming soon.",
+    "build": 15,
+    "version": "2.6.0",
+    "notes": "Ten new home, core, running, hybrid and walking/strength templates, plus six bodyweight/core exercises. Saved routines and history stay intact. Home starts with daily motivation; Your overview moves to Progress. Simpler Settings, About and Devices controls. Feedback email is optional and server sending limits remain active. Gym log uses a Month/Year dropdown.",
     "track": "internal"
   }
 }
