@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "android": {
-    "build": 17,
-    "version": "2.6.2",
-    "notes": "Search split templates and create a split above the template catalogue. Progress overview cards now open the matching Weight or Nutrition section, including an already open Health tab. Health section links survive reload. Edit profile from About returns directly to Profile.",
+    "build": 18,
+    "version": "2.6.3",
+    "notes": "Settings is now a menu: Measurements, Appearance, Your data and Send feedback open separate pages under Gymothy & you, alongside Privacy & app policy. Profile editing stays on Profile. Removed the Settings tabstrip. Phone Back matches visible Back destinations, closing popups first. What’s new loses its Settings shortcut; Wellbeing has a matching smile icon.",
     "track": "internal"
   }
 }
