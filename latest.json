@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "android": {
-    "build": 15,
-    "version": "2.6.0",
-    "notes": "Ten new home, core, running, hybrid and walking/strength templates, plus six bodyweight/core exercises. Saved routines and history stay intact. Home starts with daily motivation; Your overview moves to Progress. Simpler Settings, About and Devices controls. Feedback email is optional and server sending limits remain active. Gym log uses a Month/Year dropdown.",
+    "build": 16,
+    "version": "2.6.1",
+    "notes": "Android Back now returns directly from Settings to Profile, even after selecting several settings sections. Open popups still close first. Smooth section scrolling is preserved.",
     "track": "internal"
   }
 }
